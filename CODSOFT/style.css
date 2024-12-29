@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background:rgb(0, 0, 0);
+    color: white;
+}
+
+#header {
+    width: 100%;
+    height: 80px;
+    
+    
+}
+
+.container {
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    height: 100px;
+    width: 300px;
+}
+
+ul {
+    list-style: none;
+    display: flex; 
+}
+
+nav ul li {
+    margin: 0 20px; 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+}
+a::after{
+    content:'';
+    width: 00%;
+    height: 3px;
+    background:rgb(255, 0, 0);
+    position: absolute;
+    left:0;
+    bottom:-6px;
+}
+a:hover::after{
+    width:100%
+}
+.toptext{ 
+    margin-top:5%;
+    font-size:50px;
+}
+.toptext h1 span{
+    color:red
+}
+#about {
+   padding-top: 400px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width:100% ;
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+.sub{
+    font-size: 60px;
+    font-weight 600%;
+    color: red;
+}
+
+
+#skills{
+    padding: 30px 0;
+}
+.skilllist{
+    display:grid;
+    grid-template-columns: repeat(autofit, minmax(250px ,1fr));
+    grid: gap 40px;
+    margin-top: 50px;
+}
+#skills {
+    padding: 50px 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .subtitle {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .skilllist {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .skill {
+    max-width: 320px;
+    text-align: center;
+  }
+  
+  .skill img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .skill h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  .skilllist {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .projectlist {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .projects {
+    max-width: 320px;
+    text-align: center;
+  }
+  
+  .projects img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .projects h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+
+
+
+  .subtitle{
+    font-size: 60px;
+    font-weight 600%;
+    color: red;
+
+  }
+  .btn.btn2{
+    display:inline-block;
+    background: #ff004f;
+  }
+  .contentleft{
+    flex-basis: 35%;
+  }
+  .contentright{
+    flex-basis: 60%;
+  }
+  .contentleft p{
+    margin-top: 30%;
+  }
+  .contentright form{
+    width: 100%;
+  }
+  form input,form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 6px;
+  }
+  form .btn2{
+    cursor: pointer;
+  }
+  .copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #555;
+    font-weight: 300;
+  }
